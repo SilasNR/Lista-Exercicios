@@ -4,10 +4,23 @@
  */
 package com.mycompany.lista1a;
 
+import java.util.Scanner;
+
 /**
  *
  * @author User
  */
 public class Lista1c {
-    
+    public static void main(String[] args) {
+        float salario, result;
+        
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Digite o valor do salario :");
+        salario = sc.nextFloat();
+        
+        result = (float) (salario * 1.25);
+        
+        System.out.println("resultado : "+ result);
+    }
 }
