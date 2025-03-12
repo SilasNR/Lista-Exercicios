@@ -1,4 +1,4 @@
-package com.mycompany.lista1a;
+package com.mycompany.lista2;
 
 import java.util.*;
 

@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
 
-package com.mycompany.lista1a;
+package com.mycompany.Lista1;
 
 import java.util.Scanner;
 

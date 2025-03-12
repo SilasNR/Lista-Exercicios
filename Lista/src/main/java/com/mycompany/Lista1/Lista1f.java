@@ -1,4 +1,4 @@
-package com.mycompany.lista1a;
+package com.mycompany.Lista1;
 
 import java.util.Scanner;
 
