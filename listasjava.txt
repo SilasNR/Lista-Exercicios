@@ -1,0 +1,87 @@
+Lista 1
+
+a) Faça um programa que recebe três números reais e exibe a multiplicação desses números.
+b) Faça um programa que recebe as notas A1, A2 e A3 e exibe a média considerando que as notas são lançadas de 0 a 10 e a nota A1 tem peso 3, a nota A2 tem peso 3 e a nota A3 tem peso 4.
+c) Faça um programa que lê o salário atual de alguém e exibe o novo salário que é o atual com 25%de aumento.
+d) Faça um programa que lê o salário base de alguém e exibe o novo salário, considerando 5% de gratificação(mais dinheiro) e 7% de impostos(menos dinheiro)sobre o salário base. Também exiba a gratificação e o imposto.
+e) Faça um programa que exibe a área de um retângulo a partir da base e da altura fornecidas pelo usuário.
+f) Faça um programa que exibe a área de um triângulo a partir da base e da altura fornecidas pelo usuário.
+g) Faça um programa que exibe a área de um círculo a partir do perímetro fornecido pelo usuário.
+h) Faça  um  programa  que exibe  quantos  litros  de  combustível  são  gastos  por  um  carro  em  um dado percurso. Serão fornecidos pelo usuário a distância percorrida(em km)e a quantidade de litros gastos por km.
+i) Faça um programa que, a partir da idade e o ano atual,calcule e exiba a idade que apessoa teria na virada do próximo século.
+j) Faça um programa que recebe duas notas e exibe a média ponderada dessas notas, considerando peso dois para a primeira e peso três para a segunda.
+k) Um funcionário recebe um salário fixo acrescido de 4% de comissão sobre suas vendas. Faça um programa que recebe o salário fixo e a soma de tudo que ele vendeu, e mostre a comissão e o salário final do funcionário.
+l) Faça um programa que recebe o ano de nascimento de uma pessoa e o ano atual, e exibe a idade dessa pessoa em anos.
+
+Lista 2 - Exercícios com estrutura de decisão (condicional) e de seleção
+
+a) Faça um programa que recebe duas notas, exibe a média aritmética das notas e uma mensagem indicando se o aluno foi aprovado ou reprovado. A média para aprovação deve ser maior que seis.
+b) Tendo como entrada a altura e o sexo de uma pessoa, construa um programa que exibe o peso ideal para ela, em quilos. Use as seguintes fórmulas (adote ℎ como a altura e em metros):
+• Homens: 72,7 × ℎ − 58
+• Mulheres: 62,1 × ℎ − 44,7
+c) Faça um programa que recebe dois números inteiros distintos e exibe o maior.
+d) Faça um programa que recebe dois números reais e exibe o menor deles e com duas casas decimais.
+e) Faça um programa que recebe um número inteiro e exibe uma mensagem indicando se ele é par ou ímpar (use o operador % para obter o resto de uma divisão inteira).
+f) Faça um programa que recebe três números reais e os exibe em ordem crescente.
+g) Faça um programa que mostre um menu com as opções "adição", "subtração", "multiplicação" e "divisão", recebe dois valores reais, a operação escolhida pelo usuário e exibe o resultado da operação sobre os valores.
+h) Desenvolva um programa que recebe a base e a altura de três triângulos e exibe a maior área. Lembre-se da fórmula: 𝐴 = 𝑏𝑎𝑠𝑒 ×𝑎𝑙𝑡𝑢𝑟𝑎 / 2
+i) Faça um programa que recebe o valor de três arestas e exibe uma mensagem indicando se podem formar um triângulo. Em caso afirmativo, indique se ele é equilátero, isósceles ou escaleno. Lembre-se: Para que um triângulo exista, a medida de qualquer um dos lados deve ser menor que a soma das medidas dos outros dois.
+j) Faça um programa que recebe os coeficientes 𝑎, 𝑏 𝑒 𝑐 (𝑎 ≠ 0) de uma equação de segundo grau e exibe os valores das raízes, se forem reais, ou a mensagem "nao existem raizes reais", caso contrário.
+k) Faça um programa que recebe duas datas distintas e exibe a mais recente. Cada data deve ser fornecida como três valores inteiros, onde o primeiro representa o dia, o segundo o mês e o terceiro o ano. Dica: comece verificando pelo ano.
+l) Faça um programa que recebe o nome e a data de nascimento de duas pessoas e exibe o nome da mais velha. Cada data deve ser fornecida em três valores inteiros, onde o primeiro representa o dia, o segundo o mês e o terceiro o ano.
+m) Faça um programa que recebe a quantidade de cilindradas (cc) de um veículo de competição e exibe a categoria a qual ele pertence, sendo:
+• De 0cc a 120cc: “Sub Production”;
+• De 121cc a 240cc: “Production”;
+• Acima de 240cc: “Super Production”.
+n) Faça um programa que recebe a idade de um nadador e exibe a categoria que ele pertence. Sendo o critério:
+• Infantil (0 a 10 anos);
+• Junior (11 a 14 anos);
+• Adolescente (15 a 20 anos);
+• Jovem (21 a 35 anos) e
+• Máster (> 35 anos).
+o) Desenvolva um programa que, com base em duas notas de provas e três notas de trabalhos dadas pelo usuário,
+exibe uma mensagem indicando se o aluno foi aprovado, reprovado ou se fará o exame.
+• 6 ≤ 𝑀é𝑑𝑖𝑎 𝑓𝑖𝑛𝑎𝑙 ≤ 10, 𝑎𝑝𝑟𝑜𝑣𝑎𝑑𝑜
+• 4 ≤ 𝑀é𝑑𝑖𝑎 𝑓𝑖𝑛𝑎𝑙 < 6, 𝑒𝑥𝑎𝑚𝑒
+• 0 ≤ 𝑀é𝑑𝑖𝑎 𝑓𝑖𝑛𝑎𝑙 < 4, 𝑟𝑒𝑝𝑟𝑜𝑣𝑎𝑑𝑜
+• Considere que 𝑀é𝑑𝑖𝑎 𝑓𝑖𝑛𝑎𝑙 = A1 (até 3 pontos) + A2 (até 3 pontos) + A3 (até 4 pontos)
+p) Uma empresa decide presentear seus funcionários com um bônus de Natal. O valor é definido como segue:
+• 20% do salário para os funcionários homens com mais de quinze anos de casa;
+• 25% do salário para as funcionárias mulheres com mais de dez anos de casa;
+• R$ 200,00 para os demais que não se encaixaram nas categorias anteriores.
+q) Elabore um programa que recebe o sexo, o tempo de casa e o salário de um funcionário e exibe o valor total que o funcionário receberá no Natal (salário + bônus).
+
+Lista 3 - Exercícios de Estrutura de Repetição
+
+a) Elabore um programa que lê um número inteiro n, seguido de n inteiros, e exibe a média dos n números lidos.
+b) [while] Elabore um programa que recebe valores naturais até que seja digitado o valor zero. O programa deverá exibir a média aritmética. Lembre-se: o valor zero apenas sinaliza o fim da entrada, não deve ser contabilizado.
+c) Elabore um programa que exibe qual o número natural que mais se aproxima da raiz quadrada de um número natural fornecido pelo usuário sem ultrapassá-lo. Use apenas as operações básicas (adição, subtração, multiplicação e divisão). Exemplo: O número natural que mais se aproxima de √48, sem ultrapassar, é 6.
+d) Crie um programa que exibe uma lista de graus Fahrenheit (𝐹) e os correspondentes em graus centígrados (𝐶),
+variando de 50 a 150, com passos de uma unidade. A fórmula de conversão é 𝐶 = 5 ÷ 9 × (𝐹 − 32).
+e) [for] Desenvolva um programa que exibe a tabuada de um número natural escolhido pelo usuário. Os múltiplos apresentados devem ser de 1 a 10.
+f) Faça um programa que lê as temperaturas máximas de cada um dos 365 dias do ano e exibe a temperatura média anual.
+g) [for] Faça um programa que lê um número natural e exibe o fatorial desse número. Lembre-se: 5! é 120, porque 5 × 4 × 3 × 2 × 1 = 120. Use um acumulador e um contador dentro de um laço de repetição.
+h) Faça um programa que recebe um número inteiro e exibe o fatorial desse número. Se não for possível calculá-lo o programa deve exibir uma mensagem com o motivo.
+i) [for] Faça um programa que exibe 𝑛 elevado a 𝑚 considerando 𝑛 (real) e 𝑚 (natural) dados pelo usuário. Não usar funções prontas da linguagem para o cálculo de potência.
+j) [for] Faça um programa que lê cem idades de pacientes e exibe as idades do mais novo e do mais velho.
+k) Faça um programa que lê os valores do saldo diário de um cliente durante um mês (trinta dias) e, ao final, exibe o menor e o maior saldo que o cliente teve durante esse período.
+l) Faça um programa que recebe um número natural e exibe a soma de todos os valores de zero até o número digitado. Exemplo: se receber o valor 5, deve exibir 15 (0 + 1 + 2 + 3 + 4 + 5).
+m) Desenvolva um programa que lê cinquenta valores e exibe o maior, o menor e a média dos valores lidos.
+n) [for] Sendo 𝐻 = 1 +1/2 1/3 + 1/4 + 1/5 + 1/6 + ... + 1/n. faça um programa que exibe o valor de 𝐻 após ler 𝑛 (𝑛 > 0).
+o) [while] Faça um programa que recebe valores inteiros positivos até que seja digitado o valor zero. O programa deverá exibir o maior valor digitado.
+p) Faça um programa que lê o saldo de uma conta corrente e as movimentações feitas nela (valores positivos e negativos). Quando uma movimentação com valor zero for inserida, o programa deverá exibir o saldo final.
+q) Uma rainha requisitou os serviços de um monge e afirmou que pagaria qualquer preço. O monge perguntou se o pagamento poderia ser grãos de trigo dispostos em um tabuleiro de xadrez, de tal forma que o primeiro quadro
+teria apenas um grão e os subsequentes o dobro do quadro anterior. Achando barato, a rainha concordou, mas o pagamento era impossível. Faça um programa que exiba o número de grãos que o monge esperava receber,
+sabendo que um tabuleiro de xadrez possui 64 quadros.
+r) Fulano tem 160cm de altura e cresce 2 centímetros por ano, enquanto Ciclano tem 110cm de altura e cresce 3 centímetros por ano. Faça um programa que exibe em quantos anos Ciclano superará a altura de Fulano.
+s) Faça um programa que recebe a nota de oitenta alunos exibe a maior nota lida.
+t) Faça um programa que lê a altura (em metros) e o sexo ('m' ou 'f') e exibe a maior altura masculina e feminina lidas. Encerrar a leitura quando o valor zero for inserido como altura.
+u) A Sequência de Fibonacci é caracterizada por cada termo ser a soma dos dois imediatamente anteriores, sendo que os dois primeiros termos têm valor igual a 1, conforme a seguir: 1, 1, 2, 3, 5, 8, 13, 21, 34, 55 etc. Faça um programa que recebe a quantidade de termos desejados e os exibe. Por exemplo, caso a entrada seja 7, o programa deverá exibir os números 1, 1, 2, 3, 5, 8 e 13.
+v) Qual a diferença entre as estruturas de repetição for, while e do…while, em relação ao momento onde o teste lógico e as eventuais instruções embutidas na própria estrutura são feitos.
+w) [while] Uma empresa está fazendo uma pesquisa, ligando para telespectadores e perguntando qual canal de televisão (4, 5 ou 9) eles estão assistindo. A cada ligação a resposta é registrada em um software e, no final do
+dia, alguém digita zero e os canais com seus respectivos votos são exibidos em ordem decrescente. Construa esse software. Obs.: Considere que não haverá empate.
+x) [while] Certa pessoa (A) possui R$ 10.000,00 e tem sua fortuna crescendo em R$ 100,00 por mês. Outra pessoa (B) tem sua fortuna crescendo em R$ 300,00 ao mês e possui R$ 5.000,00. Faça um programa que exibe, mês a mês, a diferença das duas fortunas até que a pessoa (B) tenha mais dinheiro do que a pessoa (A).
+y) Um funcionário de uma empresa recebe bonificação salarial anualmente. Sabe-se que ele foi contratado em 2000 com salário de R$ 1.000,00. Em 2001 recebeu bonificação de 0,5% sobre o salário inicial e ano a ano passou
+a receber porcentagem em dobro do ano anterior, sempre em relação ao salarial inicial. Faça um programa que mostre ano a ano o salário do funcionário, desde que foi admitido até 2017.
+z) [while] Um professor precisa saber qual a média das notas de uma sala e pediu sua ajuda para construir um programa que permita inserir as notas finais de cada aluno e, ao final, exibir a média da sala. Lembre-se que as notas variam de 0 a 10 e o professor digitará -1 quando quiser encerrar as entradas.
+
